@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Oswald');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    background-color: beige;
+}
+form {
+    background-color: #fff;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+label {
+    font-family: 'Dancing Script', cursive;
+    color: red;
+    font-size: 80px;
+    display: block;
+    text-align: center;
+}
+input {
+    margin: 20px 0 10px 0;
+    padding: 10px;
+}
+a {
+	display: block;
+	color: #000;
+	text-decoration: none;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+form + div div {
+	display: inline-block;
+	margin: 40px 40px 0;
+    width: 112px;
+    height: 140px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding: 5px;
+    background-color: #fff;
+}
